@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CandS Job Links</title>
+<meta name="description" content="CandS Job Links — placement services across IT, Non-IT and Pharma sectors.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-row">
+    <a href="#top" class="brand">
+      <span class="js-logo-slot"></span>
+      <span class="brand-text">
+        <span class="brand-name js-brand-name">CandS Job Links</span>
+        <span class="brand-tagline js-brand-tagline"></span>
+      </span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="#about">About</a>
+      <a href="#sectors">Sectors</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#vendor-section">Vendor Empanelment</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-phone js-nav-phone" href="#"></a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="container">
+      <div>
+        <div class="hero-eyebrow">IT · Non-IT · Pharma placements</div>
+        <h1>The right link between <em>talent</em> and <em>opportunity</em>.</h1>
+        <p class="lede" id="hero-tagline">Placement services across IT, Non-IT & Pharma</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary">I'm looking for a job</a>
+          <a href="#contact" class="btn btn-ghost">I want to hire</a>
+        </div>
+        <div class="trust-strip" id="trust-strip"></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 240 200" fill="none">
+          <circle class="link-ring link-draw" cx="95" cy="100" r="52" stroke="#E7C989" stroke-width="6"/>
+          <circle class="link-ring link-draw delay" cx="150" cy="100" r="52" stroke="#F7F5EF" stroke-width="6" opacity="0.85"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container about-grid">
+      <div>
+        <div class="section-label">About us</div>
+        <h2>A minimal fee, a direct path to hiring.</h2>
+        <p id="about-text"></p>
+      </div>
+      <ul class="about-list">
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Transparent, minimal placement fee — charged only after an offer</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Active network across IT, Non-IT and Pharma companies</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Direct coordination between candidates and hiring companies</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Vendor-empanelled recruitment partner</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SECTORS -->
+  <section class="alt-bg" id="sectors">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-label">Sectors we serve</div>
+        <h2>Placements across three core sectors.</h2>
+      </div>
+      <div class="sector-grid" id="sector-grid"></div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how-it-works">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-label">Process</div>
+        <h2>How a placement moves from first contact to offer.</h2>
+      </div>
+      <div class="process-list" id="process-list"></div>
+    </div>
+  </section>
+
+  <!-- VENDOR EMPANELMENT -->
+  <section class="alt-bg" id="vendor-section">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-label">Vendor empanelment</div>
+        <h2>Companies we're empanelled with.</h2>
+        <p id="vendor-intro"></p>
+      </div>
+      <div class="vendor-table-wrap" id="vendor-table-wrap"></div>
+    </div>
+  </section>
+
+  <!-- FEES & PAY MODES -->
+  <section id="fees">
+    <div class="container fee-grid">
+      <div>
+        <div class="section-label">Fees</div>
+        <h2>A minimal, upfront service fee.</h2>
+        <p id="fee-note"></p>
+      </div>
+      <div>
+        <div class="section-label">Accepted pay modes</div>
+        <ul class="pay-modes" id="pay-modes-list"></ul>
+        <div class="bank-box" id="bank-box"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="alt-bg" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-card">
+        <h3>Get in touch</h3>
+        <ul class="contact-list" id="contact-list"></ul>
+      </div>
+      <div id="map-wrap"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h4 class="js-footer-name">CandS Job Links</h4>
+        <p>Connecting candidates and companies across IT, Non-IT, and Pharma — on a minimal, transparent fee.</p>
+        <div class="footer-social" id="footer-social"></div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#sectors">Sectors</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#vendor-section">Vendor Empanelment</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul id="footer-contact-list">
+          <li><a href="#contact">Get in touch</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="footer-year"></span> <span class="js-footer-name">CandS Job Links</span>. All rights reserved.</span>
+      <div class="footer-legal" id="footer-legal"></div>
+    </div>
+  </div>
+</footer>
+
+<a href="#" id="float-whatsapp" class="float-whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" style="display:none;">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.85.5 3.58 1.36 5.07L2 22l5.2-1.44a9.87 9.87 0 0 0 4.84 1.24h.01c5.46 0 9.9-4.45 9.9-9.9C21.95 6.45 17.5 2 12.04 2Zm0 17.9c-1.5 0-2.98-.4-4.26-1.16l-.3-.18-3.09.86.85-3.01-.2-.31a8.02 8.02 0 0 1-1.24-4.19c0-4.44 3.62-8.06 8.07-8.06 4.44 0 8.05 3.62 8.05 8.06s-3.6 7.99-8.08 7.99Zm4.4-6.01c-.24-.12-1.43-.7-1.65-.79-.22-.08-.38-.12-.55.12-.16.24-.63.79-.77.95-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.43-1.34-1.67-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.42-.55-.42h-.47c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.43-.58 1.63-1.15.2-.56.2-1.04.14-1.15-.06-.1-.22-.16-.46-.28Z"/></svg>
+</a>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
